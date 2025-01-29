@@ -104,7 +104,7 @@ def check_link_accessibility(item):
     return [item, latency]
 
 # 目标JSON数据的URL
-json_url = 'https://cdn.jsdelivr.net/gh/SinzMise/blog@zh/flink_count.json'
+json_url = 'https://blog.storical.space/flink_count.json'
 
 # 发送HTTP GET请求获取JSON数据
 response = requests.get(json_url)
